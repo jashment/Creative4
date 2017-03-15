@@ -33,7 +33,7 @@ app.configure('production', function() {
 
 app.get('/', routes.index);
 
-app.listen(3000);
+app.listen(3010);
 console.log('Listening %d in %s mode', app.address().port, app.settings.env);
 
 io.sockets.on('connection', function(socket) {

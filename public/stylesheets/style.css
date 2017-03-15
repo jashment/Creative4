@@ -6,6 +6,14 @@ html, body{
 	height:100%;
 	font-family:arial, helvetica, sans-serif;
 }
+#heading {
+	z-index: 1;
+	border: 1px solid black;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	font-family: Verdana;
+}
 .canvas{
 	position:absolute;
 	background:#fff;
@@ -47,6 +55,7 @@ html, body{
 	-moz-box-shadow: inset 0 0 15px rgba(0,0,0,0.5);
 	box-shadow: inset 0 0 15px rgba(0,0,0,0.5);
 	position:relative;
+	border: .5px solid white;
 }
 .color-list .selected:after{
 	content: ' ';
@@ -72,5 +81,5 @@ html, body{
 	width:200px;
 	position:absolute;
 	top:25px;
-	left:300px;
+	left:350px;
 }
