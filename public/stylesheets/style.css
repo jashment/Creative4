@@ -1,26 +1,47 @@
 html, body{
-	margin:0;
+	margin:auto;
 	padding:0;
 	overflow:hidden;
 	position:relative;
 	height:100%;
+	width: 95%;
 	font-family:arial, helvetica, sans-serif;
-}
-#heading {
-	z-index: 1;
-	border: 1px solid black;
-	position: fixed;
-	width: 100%;
-	text-align: center;
-	font-family: Verdana;
+	background-color: rgb(230,230,230);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .canvas{
-	position:absolute;
-	background:#fff;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
+position:absolute;
+background:#fff;
+top:0;
+bottom:0;
+left:0;
+right:0;
+}
+#heading {
+ z-index: 1;
+ border-bottom: 1px solid black;
+ position: fixed;
+ width: 90%;
+ text-align:center;
+ font-family: Georgia, "Book Antiqua", Palatino, serif;
+ color: #444;
+ margin: 0;
+ padding: 10px 0px 0px 0px;
+ letter-spacing: -2px;
+ font-weight: bold;
+}
+#heading h1{
+ z-index: 1;
+ font-size: 50px;
+}
+#heading p{
+ z-index: 1;
+ font-family: Verdana;
+ font-size: 11px;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ font-weight: bold;
+ padding:0px 0px 6px 0px;
 }
 .toolbar{
 	position:absolute;
